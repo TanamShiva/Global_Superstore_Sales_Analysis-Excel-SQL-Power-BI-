@@ -67,6 +67,7 @@ This ensured compatibility with SQL date functions such as:
 After cleaning the dataset, it was imported into MySQL Workbench.  
 To maintain data integrity, Primary Key and Foreign Key relationships were defined between tables.  
 Example relationships:  
+
 Orders
 *	Order_ID → Primary Key  
 Returns  
@@ -75,7 +76,7 @@ People
 *	Region → Associated with Orders.Region  
 This relational structure allows efficient analysis across multiple tables.
 
-**Data Validation Issue**
+**Data Validation Issue**  
 While defining the foreign key relationship between Orders and Returns, a data inconsistency was discovered.  
 Some Order_ID values in the Returns table did not exist in the Orders table.  
 These records are called orphan records, which violate referential integrity.  
@@ -92,7 +93,9 @@ Returns (returned orders)
 People (regional managers)  
 
 Example relationship structure:  
-Orders
+
+![SQL Schema](Images/Page4.Schemajpg)
+Orders  
 │  
 |__ Order_ID (Primary Key)  
 |__ Customer_ID  
@@ -228,16 +231,16 @@ Based on the analysis, the following actions are recommended:
 Global-Superstore-SQL-Analysis  
 |  
 |-- dataset  
-|   |__ global_superstore.csv  
+|    |-- global_superstore.csv  
 |  
 |-- sql_queries  
-|  |-- 01_data_exploration.sql  
-|  |-- 02_sales_analysis.sql  
-|  |-- 03_customer_analysis.sql  
-|  |-- 04_time_analysis.sql  
-|  |-- 05_advanced_analysis.sql  
-|  |-- 06_rfm_segmentation.sql  
-|__ README.md
+|    |-- 01_data_exploration.sql  
+|    |-- 02_sales_analysis.sql  
+|    |-- 03_customer_analysis.sql  
+|    |-- 04_time_analysis.sql  
+|    |-- 05_advanced_analysis.sql  
+|    |-- 06_rfm_segmentation.sql  
+|-- README.md
 
 
 #### Author  
