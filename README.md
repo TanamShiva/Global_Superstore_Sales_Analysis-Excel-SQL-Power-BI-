@@ -94,21 +94,7 @@ People (regional managers)
 
 Example relationship structure:  
 
-![SQL Schema](Images/Page4.Schemajpg)
-Orders  
-│  
-|__ Order_ID (Primary Key)  
-|__ Customer_ID  
-|__ Product_ID  
-|__ Sales  
-|__ Profit  
-|__ Order_Date  
-Returns  
-│__ Order_ID (Foreign Key → Orders)  
-People  
-│__ Region  
-(A schema diagram will be added in future updates.)  
-
+![SQL Schema](Images/Page4.Schema.jpg)
 
 
 ### Tools & Technologies
