@@ -93,9 +93,7 @@ Returns (returned orders)
 People (regional managers)  
 
 Example relationship structure:  
-
-![SQL Schema](Images/Page4.Schema.jpg)
-
+<img src="Images/Page4.Schema.png" width="700">
 
 ### Tools & Technologies
 Tools used in this project:
