@@ -93,17 +93,17 @@ People (regional managers)
 
 Example relationship structure:  
 Orders
-│
-|__ Order_ID (Primary Key)
-|__ Customer_ID
-|__ Product_ID
-|__ Sales
-|__ Profit
+│  
+|__ Order_ID (Primary Key)  
+|__ Customer_ID  
+|__ Product_ID  
+|__ Sales  
+|__ Profit  
 |__ Order_Date  
-Returns
+Returns  
 │__ Order_ID (Foreign Key → Orders)  
-People
-│__ Region
+People  
+│__ Region  
 (A schema diagram will be added in future updates.)  
 
 
@@ -199,6 +199,12 @@ This helps determine whether aggressive discounting negatively impacts profitabi
 #### Sales Overview
 ![Sales Overview](Images/Page1.jpg)
 
+#### Product Performance
+![Product Performance](Images/Page2.jpg)
+
+#### Customer Analytics(RFM)
+![Customer Analytics(RFM)](Images/Page3.jpg)
+
 
 ### Key Insights
 **Important insights from the analysis include**:
@@ -220,17 +226,17 @@ Based on the analysis, the following actions are recommended:
 
 **Project Structure**  
 Global-Superstore-SQL-Analysis  
-|
-|-- dataset
-|   |__ global_superstore.csv
-|
-|-- sql_queries
-|  |-- 01_data_exploration.sql
-|  |-- 02_sales_analysis.sql
-|  |-- 03_customer_analysis.sql
-|  |-- 04_time_analysis.sql
-|  |-- 05_advanced_analysis.sql
-|  |-- 06_rfm_segmentation.sql
+|  
+|-- dataset  
+|   |__ global_superstore.csv  
+|  
+|-- sql_queries  
+|  |-- 01_data_exploration.sql  
+|  |-- 02_sales_analysis.sql  
+|  |-- 03_customer_analysis.sql  
+|  |-- 04_time_analysis.sql  
+|  |-- 05_advanced_analysis.sql  
+|  |-- 06_rfm_segmentation.sql  
 |__ README.md
 
 
